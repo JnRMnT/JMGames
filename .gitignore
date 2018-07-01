@@ -31,3 +31,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 /Build
+bin
+obj
+packages
