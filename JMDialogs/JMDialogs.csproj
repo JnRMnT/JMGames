@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFC3F6A4-C6C0-4EAD-8E4F-AF15DA99153C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JMGames.JMDialogs</RootNamespace>
+    <AssemblyName>JMGames.JMDialogs</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infrastructure\Base\Dialog.cs" />
+    <Compile Include="Infrastructure\Base\DialogItem.cs" />
+    <Compile Include="Infrastructure\Base\ResponseItemPool.cs" />
+    <Compile Include="Infrastructure\Base\DialogItemPool.cs" />
+    <Compile Include="Infrastructure\Base\DialogPool.cs" />
+    <Compile Include="Infrastructure\Base\DialogResponseItem.cs" />
+    <Compile Include="Infrastructure\Interfaces\IResponseItemPicker.cs" />
+    <Compile Include="Pickers\DialogItemPickers\RandomDialogItemPicker.cs" />
+    <Compile Include="Pickers\ResponseItemPickers\RandomResponseItemPicker.cs" />
+    <Compile Include="Pools\DialogItemPools\DialogItemFactory.cs" />
+    <Compile Include="Pools\DialogItemPools\AcceptanceDialogItemsPool.cs" />
+    <Compile Include="Pools\DialogItemPools\GreetingDialogItemsPool.cs" />
+    <Compile Include="DefinedItems\DialogItems\Acceptance\Okay.cs" />
+    <Compile Include="DefinedItems\DialogItems\Greeting\GenericWelcome.cs" />
+    <Compile Include="DefinedItems\DialogItems\Greeting\HelloThere.cs" />
+    <Compile Include="DefinedItems\DialogItems\Greeting\Greetings.cs" />
+    <Compile Include="Pickers\DialogPickers\RandomDialogPicker.cs" />
+    <Compile Include="Pools\DialogPools\DialogFactory.cs" />
+    <Compile Include="Pools\DialogPools\WelcomeDialogsPool.cs" />
+    <Compile Include="DefinedItems\Dialogs\WelcomeDialog.cs" />
+    <Compile Include="Infrastructure\Interfaces\IDialogItemPicker.cs" />
+    <Compile Include="Infrastructure\Interfaces\IDialogPicker.cs" />
+    <Compile Include="Pools\ResponseItemPools\AcceptanceResponseItemsPool.cs" />
+    <Compile Include="Pools\ResponseItemPools\GreetingResponseItemsPool.cs" />
+    <Compile Include="Pools\ResponseItemPools\ResponseItemFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f303426b-dbc1-4570-a6bd-59db729e5bd7}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

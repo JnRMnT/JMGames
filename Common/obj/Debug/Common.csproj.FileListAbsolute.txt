@@ -1,0 +1,9 @@
+F:\Genel\Projeler\JMGames\Common\bin\Debug\JMGames.Common.dll
+F:\Genel\Projeler\JMGames\Common\bin\Debug\JMGames.Common.pdb
+F:\Genel\Projeler\JMGames\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+F:\Genel\Projeler\JMGames\Common\obj\Debug\JMGames.Common.dll
+F:\Genel\Projeler\JMGames\Common\obj\Debug\JMGames.Common.pdb
+F:\Genel\Projeler\JMGames\Common\obj\Debug\Common.csprojAssemblyReference.cache
+F:\Genel\Projeler\JMGames\Common\bin\Debug\UnityEngine.dll
+F:\Genel\Projeler\JMGames\Common\bin\Debug\UnityEngine.xml
+F:\Genel\Projeler\JMGames\Common\obj\Debug\Common.csproj.CopyComplete

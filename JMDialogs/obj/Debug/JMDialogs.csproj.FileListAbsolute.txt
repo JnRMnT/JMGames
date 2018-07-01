@@ -1,0 +1,17 @@
+F:\Genel\Projeler\JMDialogs\JMDialogs\bin\Debug\JMGames.JMDialogs.dll
+F:\Genel\Projeler\JMDialogs\JMDialogs\bin\Debug\JMGames.JMDialogs.pdb
+F:\Genel\Projeler\JMDialogs\JMDialogs\obj\Debug\JMDialogs.csprojResolveAssemblyReference.cache
+F:\Genel\Projeler\JMDialogs\JMDialogs\obj\Debug\JMDialogs.csproj.CoreCompileInputs.cache
+F:\Genel\Projeler\JMDialogs\JMDialogs\obj\Debug\JMGames.JMDialogs.dll
+F:\Genel\Projeler\JMDialogs\JMDialogs\obj\Debug\JMGames.JMDialogs.pdb
+F:\Genel\Projeler\JMGames\JMDialogs\obj\Debug\JMDialogs.csproj.CoreCompileInputs.cache
+F:\Genel\Projeler\JMGames\JMDialogs\obj\Debug\JMGames.JMDialogs.dll
+F:\Genel\Projeler\JMGames\JMDialogs\obj\Debug\JMGames.JMDialogs.pdb
+F:\Genel\Projeler\JMGames\JMDialogs\bin\Debug\JMGames.JMDialogs.dll
+F:\Genel\Projeler\JMGames\JMDialogs\bin\Debug\JMGames.JMDialogs.pdb
+F:\Genel\Projeler\JMGames\JMDialogs\bin\Debug\JMGames.Common.dll
+F:\Genel\Projeler\JMGames\JMDialogs\bin\Debug\JMGames.Common.pdb
+F:\Genel\Projeler\JMGames\JMDialogs\obj\Debug\JMDialogs.csprojAssemblyReference.cache
+F:\Genel\Projeler\JMGames\JMDialogs\obj\Debug\JMDialogs.csproj.CopyComplete
+F:\Genel\Projeler\JMGames\JMDialogs\bin\Debug\UnityEngine.dll
+F:\Genel\Projeler\JMGames\JMDialogs\bin\Debug\UnityEngine.xml
